@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zasady The Floor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    hr {
+      margin: 2em 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Zasady The Floor</h1>
+
+  <h2>1. Zasady</h2>
+
+  <h3>Gracze i plansza:</h3>
+  <ul>
+    <li>Każdy gracz zaczyna na jednym polu planszy.</li>
+    <li>Kwadratowa plansza ma kształt siatki 4x4.</li>
+    <li>Maksymalna liczba uczestników to 16, jeśli będzie mniej, skrajne pola będą puste – nie wpłynie to na grę.</li>
+    <li>Każdy gracz ma przypisaną jedną kategorię.</li>
+  </ul>
+
+  <h3>Ruchy i wyzwania:</h3>
+  <ul>
+    <li>Na początku gry losowany jest jeden kwadrat.</li>
+    <li>Osoba, do której ten kwadrat należy, wybiera do pojedynku sąsiedniego gracza (na polu obok – tylko poziomo/pionowo).</li>
+  </ul>
+
+  <h3>Pojedynki:</h3>
+  <ul>
+    <li>Pojedynek toczy się w kategorii wyzwanego.</li>
+    <li>Jeśli wygra osoba wyzywająca, zostaje przy swojej kategorii.</li>
+    <li>Jeśli wygra wyzwany – przejmuje kategorię przeciwnika.</li>
+    <li>Przegrany w pojedynku (ten, któremu jako pierwszemu skończy się czas) kończy grę.</li>
+    <li>Zwycięzca pojedynku może grać dalej – wyzwać sąsiada według nowego pola lub "wrócić" na planszę.</li>
+    <li>Jeśli zdecyduje się wrócić – losowanie odbywa się ponownie.</li>
+  </ul>
+
+  <h3>Przejęcia pól:</h3>
+  <ul>
+    <li>Jeśli wyzywający wygra, przejmuje pole przeciwnika.</li>
+    <li>Jeśli przegra – jego pole przejmuje wyzwany.</li>
+  </ul>
+
+  <h3>Czas i odpowiedzi:</h3>
+  <ul>
+    <li>Odpowiedzi wyłącznie pisemne – możliwość pojedynków zarówno na komputerze, jak i telefonie.</li>
+    <li>Każdy gracz ma 90 sekund w jednym pojedynku.</li>
+    <li>Trzy wygrane pojedynki z rzędu skutkują otrzymaniem złotego pola i dodatkowych 10 sekund, które można wykorzystać w przyszłym pojedynku.</li>
+    <li>Jeśli pojedynek pomiędzy graczem ze zwykłym polem, a graczem ze złotym polem wygra ten ze zwykłym – przejmuje złote pole i możliwość dopisania dodatkowych 10 sekund.</li>
+  </ul>
+
+  <h3>Wygrana:</h3>
+  <ul>
+    <li>Gra toczy się do momentu, aż pozostanie jeden gracz na planszy – zostaje on zwycięzcą.</li>
+  </ul>
+
+  <hr />
+
+  <h2>2. Wybór kategorii</h2>
+  <ul>
+    <li>Lista kategorii znajduje się pod linkiem: <a href="https://raw.githubusercontent.com/JakubDomaradzki/kategorie/refs/heads/main/kategorie.txt" target="_blank">kategorie.txt</a></li>
+    <li>Wybór kategorii odbędzie się jutro (poniedziałek 30.06) o godzinie 19:00.</li>
+    <li>Wybieranie kategorii będzie na zasadzie "kto pierwszy, ten lepszy" – dlatego przy wyborze kategorii można stworzyć dowolnie długą listę <em>n</em> kategorii, przy czym proszę ją ponumerować (1 – najbardziej pożądana, <em>n</em> – najmniej).</li>
+    <li>Do max 30 minut przed wyborem kategorii można zgłosić nie więcej niż 3 własne propozycje kategorii (na priv).</li>
+    <li>Jeśli kategoria będzie zbyt szczegółowa – nie zostanie dodana do listy wszystkich kategorii.</li>
+    <li>Tego samego dnia zostanie utworzona plansza z przypisanymi do pól osobami wraz z kategoriami.</li>
+  </ul>
+
+  <hr />
+
+  <h2>3. Rozgrywka i pojedynki</h2>
+  <ul>
+    <li>Rozgrywka odbędzie się na W2G – tam jest czat i najlepiej się porozumiewać.</li>
+    <li>Na W2G, w formie udostępnienia ekranu, pokazywana będzie cały czas plansza, a także pojedynki.</li>
+    <li>(Być może do tego czasu zostanie dodana możliwość dołączenia do pojedynku jako obserwator w apce, ale na ten moment pojedynek będzie można śledzić na ekranie W2G.)</li>
+    <li>Pojedynki odbędą się w prostej aplikacji przeglądarkowej.</li>
+    <li>Przed każdym pojedynkiem para, która będzie się ze sobą mierzyć, dostanie na czacie W2G ID pokoju, do którego musi dołączyć.</li>
+    <li>Po dołączeniu do pokoju należy wpisać swój nick i czekać na rozpoczęcie pojedynku.</li>
+    <li>Podczas pojedynku w aplikacji widoczne są tylko: timer, nick twój i przeciwnika, zdjęcie z danej kategorii oraz pole do wpisania odpowiedzi i przyciski <strong>OK</strong> i <strong>PAS</strong>.</li>
+    <li>Przyciski <strong>OK</strong> i <strong>PAS</strong> na komputerze obsługiwane są także przez Enter i ESC.</li>
+    <li>Nie jest wymagane wpisywanie polskich ani wielkich liter – aplikacja i tak zaliczy odpowiedź. Wymagane są spacje, jeśli odpowiedź ma więcej niż jeden człon.</li>
+    <li>Przycisk <strong>PAS</strong> powoduje odczekanie 3 sekund – po tym nadal jest tura gracza, który spasował. Odpowiedzi można wpisywać do skutku.</li>
+  </ul>
+
+  <hr />
+
+  <h2>4. Termin i czas trwania</h2>
+  <ul>
+    <li>Całość będzie składała się z max 15 pojedynków.</li>
+    <li>Każdy pojedynek trwa około 3 minut, więc wszystkie pojedynki to ok. 45 minut.</li>
+    <li>Czas trwania całości: 60–90 minut.</li>
+    <li>Termin i godzinę ustalimy po wyborze kategorii, gdy będzie wiadomo, kto gra.</li>
+  </ul>
+
+</body>
+</html>
